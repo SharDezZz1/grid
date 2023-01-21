@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+            margin: 30px 10px 30px 10px;
+        }
+
+        .child5 {
+            grid-area: 1/5/3/7;
+        }
+
+        .child10 {
+            grid-area: 3/1/5/3;
+        }
+
+        .child16 {
+            grid-area: 4/4/6/6;
+        }
+
+        .child {
+            width: 100%;
+            position: relative;
+            min-height: 300px;
+            background: url(images/microone170700266.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 14px;
+        }
+        .child .card-text {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #112b3cc2;
+            backdrop-filter: blur(9px);
+            width: 100%;
+            color: yellow;
+            text-align: center;
+            height: 40px;
+            bottom: 0;
+            border-radius:0 0 14px 14px;
+        }
+    </style>
+<body>
+    <header>header</header>
+    <div class="parent">
+        <div class="child child1"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child2"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child3"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child4"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child5"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child6"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child7"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child8"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child9"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child10"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child11"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child12"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child13"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child14"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child15"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child16"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child17"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child18"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child19"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child20"><div class="card-text"><span>Bushido Ways</span></div></div>
+        <div class="child child21"><div class="card-text"><span>Bushido Ways</span></div></div>
+    </div>
+    <footer>footer</footer>
+</body>
+
+</html>
