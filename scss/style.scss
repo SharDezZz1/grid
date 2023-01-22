@@ -1,3 +1,5 @@
+$bg-el-color: #ffff00;
+
 body {
     margin: 0;
 }
@@ -8,7 +10,7 @@ header {
     align-items: center;
     font-size: 40px;
     height: 100px;
-    background-color: yellow;
+    background-color: $bg-el-color;
 }
 
 footer {
@@ -17,7 +19,7 @@ footer {
     align-items: center;
     font-size: 40px;
     height: 100px;
-    background-color: yellow;
+    background-color: $bg-el-color;
 }
 
 .parent {
